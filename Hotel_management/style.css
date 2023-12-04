@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1 , h2 , h3 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.container{
+    margin:auto ;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.search{
+    float: right;
+}
+
+.nav-bar{
+    background-color: #333;
+    color: rgb(232, 234, 236);
+    overflow: auto;
+    
+}
+
+.nav-bar a{
+    color: antiquewhite;
+}
+
+.nav-bar h1{
+    float:left ;
+    padding-top: 20px;
+
+}
+
+.nav-bar ul{
+    list-style:none ;
+    float: right;
+}
+
+.nav-bar ul li{
+    float: left;
+}
+
+.nav-bar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.nav-bar ul li a:hover, 
+.nav-bar ul li a.current{
+    background-color: bisque;
+    color: rgb(143, 44, 44);
+}
+
+
+/* show case styling */
+
+.showcase{
+    background: url('https://drive.google.com/uc?export=view&id=1HVr0d3iW3dcZreBnujsOwsDGZWDegM8H') no-repeat
+    center center/cover;
+    height: 600px;
+
+}
+
+.showcase .showcase-content{
+    color: rgb(8, 1, 1);
+    text-align: center;
+    padding-top:170px ;
+    font-weight: bold;
+}
+
+.showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.primary-word{
+    color: rgb(190, 114, 15);
+}
+
+.stay-para{
+    font: 20 px;
+}
+
+.showcase .showcase-content p{
+    padding-bottom:20px ;
+    line-height: 1.7em;
+}
+
+.btn{
+    background-color: rgb(194, 120, 120);
+    display: inline-block;
+    padding: 13px 20px;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: rgb(214, 185, 20);
+    color: #333;
+}
+
+
+/* Hotel history */
+
+#home-info {
+    height: 400px;
+    
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('https://drive.google.com/uc?export=view&id=1EwUGtWMkKvI6DBLdDqwKe0x9EkHUX4TB') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+.bg-dark{
+    background-color: #333;
+    color: antiquewhite;
+}
+
+/* features */
+
+.box{
+    float: left;
+    width:25% ;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+.bg-primary{
+    background-color:rgb(214, 160, 11);
+    color: #333;
+}
+.footer #main-footer{
+    text-align: center;
+    align-items: center;
+    background: gray;
+    padding: 20px;
+    color: antiquewhite;
+}
+
+.socialDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline;
+    position: fixed;
+}
+.ancor {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px antiquewhite;
+}
+
+.socialDiv a:hover {
+    transform: scale(1.4);
+}
+/* clock */
+#clock {
+    width: 90px;
+    align-items: center;
+}
+
